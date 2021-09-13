@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="style.css">
+  <script  src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="functions.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+  <script type="text/javascript" src="jquery.mobile.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display%7CMuli" rel="stylesheet">
+  <link rel="icon" href="./image/favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta property="og:image:url" content="http://prudmeri.hu/image/pm_logo_black.png" />
+  <meta property="og:image:title" content="Prűd Méri zenekar" />
+  <meta property="og:image:width" content="480" />
+  <meta property="og:image:height" content="480" />
+  <title>Prűd Méri zenekar</title>
+</head>
+
+<body>
+  <header>
+    <div class="menu">
+      <div id="menu-icons">
+        <a class="icons"><i id="intro-menu" class="fas fa-users icon" aria-hidden="true"></i></a>
+        <a class="icons"><i id="music-menu" class="fas fa-music icon" aria-hidden="true"></i></a>
+        <a class="icons"><i id="gallery-menu" class="fas fa-image icon" aria-hidden="true"></i></a>
+        <a class="icons"><i id="info-menu" class="fas fa-info icon" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <p id="intro-popup" class="header-popup">A zenekar</p>
+    <p id="music-popup" class="header-popup">Zene</p>
+    <p id="gallery-popup" class="header-popup">Galéria</p>
+    <p id="info-popup" class="header-popup">Információk</p>
+  </header>
+  <main>
+    <div id="section-slider">
+      <img id="left-arrow" class="pic-arrow" src="./image/left.png" alt="előző">
+      <img id="right-arrow" class="pic-arrow" src="./image/right.png" alt="következő">
+      <section id="1">
+        <article id="intro">
+          <div id="intro-back"></div>
+          <h1>Üdvözöljük a Prűd Méri zenekar honlapján!</h1>
+          <img id="intro-logo" src="./image/pm_logo.png" alt="Prűd Méri">
+          <p>A zenekar 2018 májusában alakult, azzal a céllal, hogy a Creedence Clearwater Revival dalait játszuk az eredeti hangzást minél jobban megközelítve. Első fellépésünkön, 2018. augusztus 4-én a Zalacsébi Falunapokon még csak nyolc dalt játszottunk, jelenleg a repertoár 19 dalból áll. 2018 őszén elkezdtük a feldolgozásainkat rögzíteni. Jelenleg három dal készült el, melyekhez videóklipet is forgattunk, a zene menüpontban megtekinthetők.</p>
+          <h2>A zenekar tagjai</h2>
+          <table>
+            <tr>
+              <td>Cséber Fanni</td>
+              <td>vokál</td>
+            </tr>
+            <tr>
+              <td>Szitás Zsófia</td>
+              <td>billentyű</td>
+            </tr>
+            <tr>
+              <td>Cséber József</td>
+              <td>gitár</td>
+            </tr>
+            <tr>
+              <td>Szitás Rudolf</td>
+              <td>dob</td>
+            </tr>
+            <tr>
+              <td>Tóth Ádám</td>
+              <td>ének, gitár</td>
+            </tr>
+            <tr>
+              <td>Zsoldos László</td>
+              <td>bass</td>
+            </tr>
+          </table>
+        </article>
+      </section>
+      <section id="2">
+        <article id="music">
+          <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/qsu8xMXNxCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/uZBi0fQYznU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/OeYWuw9OE1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+      </section>
+      <section id="3">
+        <article id="gallery">
+          <div id="pic-container">
+            <a id="gallery-left" class="gallery-arrow">előző</a>
+            <img id="big-pic" src="./image/gallery/01.jpg" alt="picture">
+            <a id="gallery-right" class="gallery-arrow">következő</a>
+          </div>
+          <div id="thumbs">
+            <img id="thumb-01" class="thumb" src="./image/gallery/01.jpg" alt="picture">
+            <img id="thumb-02" class="thumb" src="./image/gallery/02.jpg" alt="picture">
+            <img id="thumb-03" class="thumb" src="./image/gallery/03.jpg" alt="picture">
+            <img id="thumb-04" class="thumb" src="./image/gallery/04.jpg" alt="picture">
+            <img id="thumb-05" class="thumb" src="./image/gallery/05.jpg" alt="picture">
+            <img id="thumb-06" class="thumb" src="./image/gallery/06.jpg" alt="picture">
+            <img id="thumb-07" class="thumb" src="./image/gallery/07.jpg" alt="picture">
+            <img id="thumb-08" class="thumb" src="./image/gallery/08.jpg" alt="picture">
+            <img id="thumb-09" class="thumb" src="./image/gallery/09.jpg" alt="picture">
+            <img id="thumb-10" class="thumb" src="./image/gallery/10.jpg" alt="picture">
+            <img id="thumb-11" class="thumb" src="./image/gallery/11.jpg" alt="picture">
+            <img id="thumb-12" class="thumb" src="./image/gallery/12.jpg" alt="picture">
+            <img id="thumb-13" class="thumb" src="./image/gallery/13.jpg" alt="picture">
+            <img id="thumb-14" class="thumb" src="./image/gallery/14.jpg" alt="picture">
+            <img id="thumb-15" class="thumb" src="./image/gallery/15.jpg" alt="picture">
+            <img id="thumb-16" class="thumb" src="./image/gallery/16.jpg" alt="picture">
+            <img id="thumb-17" class="thumb" src="./image/gallery/17.jpg" alt="picture">
+            <img id="thumb-18" class="thumb" src="./image/gallery/18.jpg" alt="picture">
+            <img id="thumb-19" class="thumb" src="./image/gallery/19.jpg" alt="picture">
+            <img id="thumb-20" class="thumb" src="./image/gallery/20.jpg" alt="picture">
+            <img id="thumb-21" class="thumb" src="./image/gallery/21.jpg" alt="picture">
+            <img id="thumb-22" class="thumb" src="./image/gallery/22.jpg" alt="picture">
+            <img id="thumb-23" class="thumb" src="./image/gallery/23.jpg" alt="picture">
+            <img id="thumb-24" class="thumb" src="./image/gallery/24.jpg" alt="picture">
+            <img id="thumb-25" class="thumb" src="./image/gallery/25.jpg" alt="picture">
+            <img id="thumb-26" class="thumb" src="./image/gallery/26.jpg" alt="picture">
+            <img id="thumb-27" class="thumb" src="./image/gallery/27.jpg" alt="picture">
+            <img id="thumb-28" class="thumb" src="./image/gallery/28.jpg" alt="picture">
+            <img id="thumb-29" class="thumb" src="./image/gallery/29.jpg" alt="picture">
+            <img id="thumb-30" class="thumb" src="./image/gallery/30.jpg" alt="picture">
+            <img id="thumb-31" class="thumb" src="./image/gallery/31.jpg" alt="picture">
+            <img id="thumb-32" class="thumb" src="./image/gallery/32.jpg" alt="picture">
+            <img id="thumb-33" class="thumb" src="./image/gallery/33.jpg" alt="picture">
+            <img id="thumb-34" class="thumb" src="./image/gallery/34.jpg" alt="picture">
+            <img id="thumb-35" class="thumb" src="./image/gallery/35.jpg" alt="picture">
+            <img id="thumb-36" class="thumb" src="./image/gallery/36.jpg" alt="picture">
+            <img id="thumb-37" class="thumb" src="./image/gallery/37.jpg" alt="picture">
+            <img id="thumb-38" class="thumb" src="./image/gallery/38.jpg" alt="picture">
+            <img id="thumb-39" class="thumb" src="./image/gallery/39.jpg" alt="picture">
+            <img id="thumb-40" class="thumb" src="./image/gallery/40.jpg" alt="picture">
+            <img id="thumb-41" class="thumb" src="./image/gallery/41.jpg" alt="picture">
+          </div>
+        </article>
+      </section>
+      <section id="4">
+        <article id="info">
+          <h1>Koncertszervezés</h1>
+          <p>+36 30 952 70 71</p>
+          <p>prudmeri@gmail.com</p>
+          <img id="info-logo" src="./image/pm_logo.png" alt="Prűd Méri">
+          <p><a href="#">rider</a></p>
+        </article>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div id="logo-cont">
+      <img id="logo" src="./image/pm_logo.png" alt="Prűd Méri">
+    </div>
+    <div class="contact-icons">
+      <div id="contacts">
+        <a class="footer-icons"><i id="call" class="fas fa-phone-square icon" aria-hidden="true"></i></a>
+        <a class="footer-icons" href="https://facebook.com/prudmeri" target="_blank"><i id="face" class="fab fa-facebook-square icon" aria-hidden="true"></i></a>
+        <a class="footer-icons"><i id="mailing" class="fas fa-envelope-square icon" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <p id="address" class="footer-popup">prudmeri@gmail.com</p>
+    <p id="phone" class="footer-popup">+36 30 952 70 71</p>
+    <div id="copyright">
+      <p>design &amp; code by<br><a href="https://www.tothadi.hu" target="_blank">tothadi</a><br><i class="fa fa-copyright" aria-hidden="true"></i> 2019</p>
+    </div>
+  </footer>
+</body>
+
+</html>
